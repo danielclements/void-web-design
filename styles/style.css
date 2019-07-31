@@ -2,18 +2,16 @@ body {
     margin: 0;
 }
 
-.under-construction-bg {
-    
-   
- }
 
+/* background video code see bottom of page for media queries for different resolution */
 #myVideo{
     position: fixed;
     display: inline;
     right: 0;
     bottom: 0;
     height: 100vh;
-    transform: scale(1.2)
+    transform: scale(1.37);
+    overflow: hidden;
 }
 
 .main-content-wrapper{
@@ -21,7 +19,7 @@ body {
 }
 
 
-
+/* Void webdesign call to action */
 
 .call-2 {
     font-family: 'Roboto', sans-serif;
@@ -40,8 +38,11 @@ body {
 }
 
 
+
+/* social links & hover animation for all links  */
 .social-links {
     padding-bottom: 15px;
+    padding-right: 6px;
 }
 
 .social-links li a i {
@@ -63,37 +64,28 @@ body {
 .social-links li a i:hover {
    color:#d05d05;
    border-color:#d05d05;
-   font-size: 18px;
-   line-height: 1px;
+   transform: scale(1.2);
 }
 
-/*#email:hover{*/
-/*    color: #f5305a;*/
-/*    border-color: #f5305a;*/
-/*    font-size: 18px;*/
-/*    line-height: 1px;*/
-/*}*/
 
-/*#instagram:hover{*/
-/*    color: #4df8cc;*/
-/*    border-color:#4df8cc;*/
-/*    font-size: 18px;*/
-/*    line-height: 1px;*/
-/*}*/
+
 
 .alpha-bg{
     background-color: rgba(0,0,0,0.05);
     bottom:0;
+
+    /* height set to 100VH to allows for responsive design */
     height: 100vh;
     position: fixed;
     width:100%;
 }
 
+
+/* navbar  */
 .navbar-main{
-    padding-top: 6px;
+    padding-top: 12px;
     position: absolute;
-    /* bottom: 0;
-    right:0; */
+    
     margin: 0;
     padding: 10 0 0 0;
     width: 100%;
@@ -130,6 +122,9 @@ body {
     margin-bottom:25px;
 }
 
+
+
+/* css for to animated arrows  */
 .arrow-top {
 	width:10px;
 	height:10px;
@@ -163,4 +158,12 @@ body {
 	0% {border-color:rgb(255,255,255,1);}
 	80% {border-color:rgb(255,255,255,0);}
 	100% {border-color:rgb(255,255,255,0);}
+}
+
+
+
+.portfolio-bg{
+    height: 100vh;
+    position: relative;
+    display: block;
 }
