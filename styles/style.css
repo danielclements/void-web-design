@@ -45,20 +45,9 @@
 
 /* Main page */
 
-.landing-page-background {
-    background: url(/Users/DanielClements/Desktop/webdev/repositories/void-web/images/71557.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-
-
-}
 
 .background-alpha-04 {
-    background: rgba(0, 0, 0, 0.8) no-repeat center center fixed;
+    background: rgba(0, 0, 0, 0.2) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,6 +112,34 @@
     color: #e5e3e3;
     padding-left: 40px;
 }
+
+
+
+
+html, body {
+    margin: 0;
+}
+
+.full-screen-video-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.full-screen-video-container video {
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
 
 
 /* social links & hover animation for all links  */
@@ -215,8 +232,8 @@
 /* Portfolio  */
 
 .portfolio-bg {
-    background-color: #070707;
-    height: 100vh;
+    background-color: #101010;
+    padding-bottom: 40px;
 }
 
 .block-divider-portfolio {
@@ -305,6 +322,10 @@
 .footer-inner {
     -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 0px 5px 28px 0px rgba(0, 0, 0, 0.34);
     box-shadow: 0px 10px 13px -7px #000000, inset 0px 5px 28px 0px rgba(0, 0, 0, 0.34);
+    background-color: #4e4e4e;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ea4e1a", endColorstr="#b60d6d", GradientType=1);
+    color: #000000;
+    text-decoration: none; 
 }
 
 
@@ -321,13 +342,34 @@
 .vertical-divider-about-us {
     height: 3px;
     color: #C6C6C6;
-    border: 0;
-    border-top: 2px solid #d05d05;
+    background: rgb(234, 78, 26);
+    background: -moz-linear-gradient(184deg, rgba(234, 78, 26, 1) 0%, rgba(182, 13, 109, 1) 100%);
+    background: -webkit-linear-gradient(184deg, rgba(234, 78, 26, 1) 0%, rgba(182, 13, 109, 1) 100%);
+    background: linear-gradient(184deg, rgba(234, 78, 26, 1) 0%, rgba(182, 13, 109, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ea4e1a", endColorstr="#b60d6d", GradientType=1);
     margin-top: .4rem;
     margin-bottom: .4rem;
 
 }
 
 .h-about-us {
-    color: #d05d05;
+    text-decoration: underline;
+    text-decoration-color: #d14618;
+}
+
+
+.our-mission{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.list-unstyled li a{
+    color: white;
+}
+
+/* Privacy page */
+
+.h-privacy-us{
+    text-decoration: underline;
 }
