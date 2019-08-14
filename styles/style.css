@@ -11,6 +11,7 @@
     padding-left: 0;
     padding-right: 6px;
     z-index: 4;
+    margin-right: 10px;
 }
 
 
@@ -337,6 +338,7 @@ body {
     height: auto;
     overflow: hidden;
     object-fit: contain;
+    margin-top: 27px;
 }
 
 
@@ -418,9 +420,38 @@ body {
 
 @media (min-height: 1200px) {
 
+   
+
 
    .contact-bg {
        height: auto;
    }
 
 }
+
+@media (max-width: 783px){
+ 
+    .social-links {
+        display:none;
+    
+    }
+
+
+    .call-to-action{
+        margin-top: 200px;
+    }
+     
+    .call-2{
+        padding: 0;
+    }
+
+    .call-3{
+        padding: 0;
+    }
+
+
+    .navbar-bg {
+        background-color: black;
+       
+    }
+    }
