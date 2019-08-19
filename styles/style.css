@@ -381,7 +381,7 @@ body {
 /* Contact Page !  */
 
 .contact-bg {
-    background: url(/Users/DanielClements/Desktop/webdev/repositories/void-web/images/dynamic-wang-g-YsyUUwT9M-unsplash.jpg) no-repeat center center fixed; 
+    background: url(../images/dynamic-wang-g-YsyUUwT9M-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
