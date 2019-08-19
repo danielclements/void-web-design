@@ -109,14 +109,13 @@ h1 h2 h3 h4 h5 h6{
 
 
 .call-2 {
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 45px;
     letter-spacing: 2px;
     font-weight: 600;
     margin: 0;
     padding-left: 40px;
-}
+    font-family: 'Roboto', sans-serif;}
 
 .call-3 {
     text-align: center;
